@@ -13,6 +13,7 @@ const addStudent = (name, age, roll) => {
         roll
     });
 
+    //convert to JSON string and store in local storage 
     localStorage.setItem("students", JSON.stringify(students));
 
     return { name, age, roll };
